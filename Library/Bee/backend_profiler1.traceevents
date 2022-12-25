@@ -1,424 +1,576 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1671935278819183, "dur":1002, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278820194, "dur":117, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1671935278820347, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1671935278820365, "dur":357, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1671935278820742, "dur":410, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278821152, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888430, "dur":220, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888650, "dur":102, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888752, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888756, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888772, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888774, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888782, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888784, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888791, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888792, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888796, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888796, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888800, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888801, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888803, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888804, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888807, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888808, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888811, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888812, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888816, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888816, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888819, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888820, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888825, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888833, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278888848, "dur":1181, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1671935278820895, "dur":263, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671935278821158, "dur":3872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671935278825037, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1671935278825162, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671935278825239, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityPlayer.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671935278825322, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671935278825387, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671935278825481, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671935278825558, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671935278825894, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671935278825935, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671935278825982, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671935278826063, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671935278826189, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671935278826229, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671935278826400, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671935278826445, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671935278826754, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671935278826798, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":1, "ts":1671935278826846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671935278830130, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":1, "ts":1671935278831063, "dur":57378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278820899, "dur":267, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278821166, "dur":3867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825037, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825156, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825205, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825246, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825305, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825381, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825449, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825515, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825560, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825603, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825651, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825692, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825745, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825880, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825934, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278825983, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278826067, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278826397, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278826438, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278826484, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278826525, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278826564, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278826603, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278826641, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278826677, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278826717, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278826754, "dur":11625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278838385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671935278880311, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671935278881145, "dur":7288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278820930, "dur":241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278821172, "dur":3862, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825037, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825151, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825229, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825281, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825325, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825399, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825470, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825512, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825558, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825627, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825672, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825718, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825761, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825834, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825868, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825905, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278825948, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671935278826050, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278826094, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671935278826524, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278826573, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671935278826614, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278826646, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671935278826682, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278826718, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671935278826757, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278826798, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1671935278826842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671935278827341, "dur":3161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1671935278830539, "dur":57888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278820961, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278821179, "dur":3852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825037, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825160, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825226, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825270, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825318, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825372, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825434, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825480, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825523, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825570, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825625, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825664, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825702, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825751, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825851, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825894, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825936, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671935278825986, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278826064, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671935278826119, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278826166, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671935278826286, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278826354, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Netcode.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671935278826613, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278826653, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671935278826693, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278826727, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671935278826767, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278826809, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1671935278826856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671935278880435, "dur":7932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1671935278888401, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":4, "ts":1671935278888402, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278820982, "dur":202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278821184, "dur":3851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278825038, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1671935278825225, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278825266, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2.exe" }}
-,{ "pid":12345, "tid":5, "ts":1671935278825333, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278825433, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671935278825479, "dur":343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278825823, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671935278825897, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278825946, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826052, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826098, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826144, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826180, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826286, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826328, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Networking.Transport.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826525, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826568, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826606, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826642, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826690, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826725, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826764, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826804, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1671935278826847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671935278830398, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1671935278831251, "dur":57175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278821011, "dur":178, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278821189, "dur":3861, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825050, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825175, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825230, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825377, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825437, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825512, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825572, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825650, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825692, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825750, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825837, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825878, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825928, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671935278825982, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826066, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826214, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826257, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826356, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826397, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Netcode.Components.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826545, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826598, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826636, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826670, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826708, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826742, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826780, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826817, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1671935278826857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671935278880742, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1671935278883250, "dur":5190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278821032, "dur":162, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278821194, "dur":3840, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825037, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825136, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825186, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825241, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825378, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825443, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825519, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825574, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825631, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825689, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825746, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825851, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825899, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671935278825948, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826044, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826088, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826122, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826247, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826309, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826445, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826584, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826625, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826675, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826718, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826751, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826866, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826903, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1671935278826948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671935278884366, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1671935278885287, "dur":3143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278821056, "dur":144, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278821201, "dur":3828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278825037, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1671935278825174, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278825231, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1671935278825296, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278825371, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1671935278825436, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278825518, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1671935278825573, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278825625, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1671935278825744, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278825915, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1671935278825957, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278826061, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1671935278826117, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278826191, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":8, "ts":1671935278826385, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278826428, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1671935278826953, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278826992, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/level1" }}
-,{ "pid":12345, "tid":8, "ts":1671935278827028, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671935278887234, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/level1" }}
-,{ "pid":12345, "tid":8, "ts":1671935278888077, "dur":367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278821081, "dur":124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278821205, "dur":3831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825038, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825153, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825207, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825260, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825310, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825378, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825436, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825484, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825531, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825573, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825677, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825719, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825756, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825857, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825902, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671935278825953, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278826058, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671935278826115, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278826159, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671935278826278, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278826323, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671935278826433, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278826478, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671935278826745, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278826783, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":9, "ts":1671935278826832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278827128, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":9, "ts":1671935278828987, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":9, "ts":1671935278829016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278829018, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":9, "ts":1671935278829922, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":9, "ts":1671935278829959, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671935278829962, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":9, "ts":1671935278830750, "dur":57681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278821110, "dur":100, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278821210, "dur":3827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825039, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825152, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825224, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825292, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825334, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825434, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825496, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825549, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825600, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825659, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825709, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825755, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825848, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825908, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278825956, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671935278826060, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278826112, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671935278826446, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278826503, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671935278826545, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278826586, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671935278826625, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278826670, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671935278826714, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278826751, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671935278826793, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278826833, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":10, "ts":1671935278827423, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278827467, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/level0.resS" }}
-,{ "pid":12345, "tid":10, "ts":1671935278827501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278827503, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/level0.resS" }}
-,{ "pid":12345, "tid":10, "ts":1671935278828867, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/level0" }}
-,{ "pid":12345, "tid":10, "ts":1671935278828912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278828915, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/level0" }}
-,{ "pid":12345, "tid":10, "ts":1671935278830036, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/boot.config" }}
-,{ "pid":12345, "tid":10, "ts":1671935278830120, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671935278830162, "dur":58266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278821130, "dur":85, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278821215, "dur":3824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825039, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825147, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825239, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825382, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825450, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825507, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825551, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825602, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825653, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825697, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825739, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825808, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825842, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825881, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825919, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671935278825958, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826100, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826279, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826327, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826442, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826499, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826539, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826571, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826606, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826643, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826695, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826730, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826764, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826819, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826906, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826942, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/level1.resS" }}
-,{ "pid":12345, "tid":11, "ts":1671935278826969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671935278884595, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/level1.resS" }}
-,{ "pid":12345, "tid":11, "ts":1671935278885458, "dur":2974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278821151, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278821153, "dur":3875, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825037, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825041, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825092, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/app.info" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825094, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825143, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825189, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825303, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825378, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825498, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825562, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825611, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825663, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825712, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825758, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825840, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825883, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825926, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671935278825973, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826063, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826121, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826169, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826285, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826327, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826429, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826475, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826511, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826548, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/Unity.Burst.Cecil.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826586, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826626, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826665, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826698, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826737, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826774, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826870, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826906, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles The Dwarf Life 2_Data/resources.assets" }}
-,{ "pid":12345, "tid":12, "ts":1671935278826935, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671935278880991, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"The Dwarf Life 2_Data/resources.assets" }}
-,{ "pid":12345, "tid":12, "ts":1671935278882733, "dur":5700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671935278891118, "dur":938, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1671935698206591, "dur":862, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698207459, "dur":65, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1671935698207547, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1671935698207559, "dur":316, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1671935698207897, "dur":529, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698208426, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698577727, "dur":361, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578088, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578102, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578104, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578108, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578109, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578113, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578114, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578119, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578120, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578123, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578124, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578127, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578128, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578131, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578132, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578135, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578136, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578139, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578140, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578144, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578145, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578148, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578149, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578152, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578166, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698578182, "dur":1269, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1671935698208096, "dur":337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698208435, "dur":3816, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698212261, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671935698212265, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698212391, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671935698212397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698213217, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671935698214521, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1671935698214587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698214892, "dur":4940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1671935698219880, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1671935698219978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698219993, "dur":59114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1671935698279148, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698279195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698279405, "dur":24943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698304379, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698304425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698304432, "dur":95887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698400359, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698400451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698400458, "dur":57026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698457538, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698457586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698457593, "dur":26103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698483736, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698483782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698483791, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698484676, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698485106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698485113, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698487383, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698487426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698487433, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698488892, "dur":759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698489697, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698489712, "dur":3991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698493745, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698493878, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698493890, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698496318, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698496446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698496454, "dur":2884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698499421, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Netcode.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698499729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698499736, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Netcode.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698502508, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698502553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671935698502560, "dur":45334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671935698547952, "dur":29783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698208124, "dur":316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698208440, "dur":3816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698212261, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1671935698212450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698222859, "dur":176359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1671935698399267, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698399385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698399391, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698400823, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698400851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698400855, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698401484, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698401510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698401514, "dur":20477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698422044, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698422101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698422112, "dur":46363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698468523, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698468567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698468575, "dur":25991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698494610, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698494750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698494757, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698498318, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698498439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698498446, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698500474, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698500530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698500538, "dur":4347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698504941, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698504983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698504990, "dur":2948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698507980, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698508194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698508202, "dur":4404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698512649, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698512694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698512701, "dur":3796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698516552, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698516598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698516605, "dur":4331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698520981, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698521035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698521323, "dur":10302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671935698531664, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1671935698532294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698532301, "dur":4204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1671935698536553, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1671935698536600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671935698536606, "dur":3941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1671935698540591, "dur":37134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698208147, "dur":298, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698208445, "dur":3808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698212261, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1671935698212448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698219462, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1671935698220988, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1671935698221089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698221097, "dur":58216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1671935698279444, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698279501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698279565, "dur":26219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698305810, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698305854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698305859, "dur":94267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698400181, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698400237, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698400243, "dur":30573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698430864, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698430928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698430935, "dur":21414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698452399, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698452517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698452525, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698453474, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698453510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698453515, "dur":20610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698474172, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698474220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698474227, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698475728, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698475776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698475783, "dur":22965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698498809, "dur":1035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Networking.Transport.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698500333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698500341, "dur":4752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Networking.Transport.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698505129, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698505191, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698505198, "dur":5611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698510881, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698510956, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698510963, "dur":4753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698515760, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698515803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698515810, "dur":3315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698519177, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698519230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698519237, "dur":3955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671935698523229, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1671935698523447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698523819, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1671935698524579, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1671935698524625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698524692, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1671935698525976, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1671935698526021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698526027, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1671935698527273, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671935698527319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698527346, "dur":6293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671935698533692, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1671935698533743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698533749, "dur":4656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1671935698538452, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1671935698538499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671935698538506, "dur":3290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1671935698541947, "dur":35818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698208176, "dur":276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698208452, "dur":3803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698212261, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1671935698212420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698215702, "dur":6698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1671935698222446, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1671935698222576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698222584, "dur":176658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1671935698399319, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698399384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698399391, "dur":34874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698434335, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698434398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698434405, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698435916, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698435960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698435966, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698437823, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698437870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698437877, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698438768, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698438808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698438832, "dur":33308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698472285, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698472368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698472375, "dur":29255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698501701, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698502081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698502088, "dur":6335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698508463, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698508505, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698508512, "dur":4414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698512987, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698513033, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698513039, "dur":4396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698517473, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698517532, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698517539, "dur":3535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698521129, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698521266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698521273, "dur":9101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671935698530409, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1671935698530526, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698530532, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1671935698531977, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671935698532025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698532031, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671935698534122, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671935698534162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671935698534168, "dur":6060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671935698540268, "dur":37458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698208200, "dur":258, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698208458, "dur":3796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698212261, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1671935698212438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698216152, "dur":6714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1671935698222930, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1671935698223050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698223057, "dur":55799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1671935698278902, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2.exe" }}
+,{ "pid":12345, "tid":5, "ts":1671935698278977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698278983, "dur":157430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2.exe" }}
+,{ "pid":12345, "tid":5, "ts":1671935698436455, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698436503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698436510, "dur":22452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698459024, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698459071, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698459078, "dur":25512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698484653, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698484974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698484982, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698486226, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698486679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698486686, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698488366, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698488636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698488643, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698490151, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698490266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698490273, "dur":3831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698494146, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698494264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698494271, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698496836, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698497607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698497785, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698499732, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698500340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698500347, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698503326, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698503372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671935698503379, "dur":60573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671935698563998, "dur":13731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698208226, "dur":237, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698208463, "dur":3789, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698212260, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1671935698212469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698223910, "dur":54934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1671935698278888, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1671935698278999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698279004, "dur":22600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1671935698301638, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698301675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698301682, "dur":98468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698400195, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698400237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698400244, "dur":28893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698429183, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698429229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698429236, "dur":25908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698455196, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698455241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698455248, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698458686, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698458734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698458824, "dur":25032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698483921, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698483995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698484003, "dur":28114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698512160, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698512203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698512210, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698515471, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698515510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698515516, "dur":6629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698522184, "dur":23929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698546119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671935698546545, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671935698547730, "dur":30011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698208249, "dur":219, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698208468, "dur":3804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698212273, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1671935698212434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698215919, "dur":183318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1671935698399297, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698399351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698399361, "dur":27006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698426415, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698426460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698426470, "dur":44209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698470745, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698470812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698470819, "dur":23134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698494084, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698494721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698494728, "dur":3525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698498301, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698498442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698498450, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698501133, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698501180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698501187, "dur":6152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698507379, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698507429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698507437, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698510133, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698510177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698510202, "dur":4265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698514518, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698514565, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698514571, "dur":3577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698518619, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698518673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698518680, "dur":14525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671935698533248, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671935698533293, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671935698533299, "dur":7196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671935698540540, "dur":37183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698208275, "dur":198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698208473, "dur":3796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698212269, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1671935698212455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698223208, "dur":55701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1671935698278960, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1671935698279125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698279498, "dur":109174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1671935698388717, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698388760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698388768, "dur":41017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698429835, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698429907, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698429952, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698431565, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698431608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698431614, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698432504, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698432558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698432566, "dur":25369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698457977, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698458020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698458028, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698459528, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698459581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698459587, "dur":31615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698491240, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698491360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698491367, "dur":5135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698496561, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698496681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698496687, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698499530, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Netcode.Components.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698499695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698499703, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Netcode.Components.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698502619, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698502669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698502675, "dur":36737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671935698539454, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1671935698539575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671935698539581, "dur":1994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1671935698541617, "dur":36143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698208295, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698208478, "dur":3787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698212265, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1671935698212448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698219645, "dur":59365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1671935698279048, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698279090, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698279378, "dur":120974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698400457, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698400523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698400531, "dur":31682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698432258, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698432317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698432326, "dur":35210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698467582, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698467639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698467648, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698468641, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698468684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698468691, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698470485, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698470532, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698470539, "dur":26706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698497477, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698497598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698497606, "dur":3360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698501043, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698501385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698501392, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698504489, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698504536, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671935698504543, "dur":65832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671935698570412, "dur":7356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671935698208318, "dur":165, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671935698208484, "dur":3772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671935698212261, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1671935698212443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671935698216410, "dur":6587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1671935698223221, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1671935698223327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671935698223334, "dur":55032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1671935698278425, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698278662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671935698279023, "dur":11764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698290815, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698290850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671935698290856, "dur":108557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698399465, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698399558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671935698399565, "dur":26869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698426482, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698426536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671935698426556, "dur":30972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698457571, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698457618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671935698457625, "dur":19835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698477499, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698477544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671935698477552, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698478502, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698478544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671935698478551, "dur":99117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671935698577696, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1671935698577698, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698208337, "dur":151, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698208488, "dur":3771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698212262, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1671935698212421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698213907, "dur":4897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1671935698218842, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1671935698218970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698219033, "dur":59607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1671935698278688, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698279176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698279182, "dur":122645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698401865, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698401911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698401917, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698402921, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698402960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698402966, "dur":769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698403770, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698403815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698403819, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698405134, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698405437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698405443, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698406382, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698406430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698406434, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698407411, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698407443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698407447, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698408204, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698408247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698408253, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698409253, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698409298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698409307, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698410280, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698410324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698410343, "dur":2388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698412815, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698412886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698412894, "dur":20556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698433486, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698433544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698433550, "dur":22485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698456099, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698456167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698456203, "dur":2493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698458734, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698458773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698458780, "dur":56247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698515070, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698515117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698515124, "dur":4495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698519658, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698519699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698519706, "dur":8052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671935698527805, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671935698527848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698527855, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671935698528760, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671935698528802, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698528808, "dur":3067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671935698531918, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1671935698531955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698531962, "dur":4486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1671935698536489, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1671935698536533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671935698536540, "dur":4707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1671935698541286, "dur":36468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671935698208359, "dur":135, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671935698208494, "dur":3768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671935698212268, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1671935698212476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671935698224096, "dur":54488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1671935698278638, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698279139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671935698279186, "dur":77526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698356755, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698356801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671935698356811, "dur":91202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698448067, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698448123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671935698448133, "dur":26117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698474294, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698474344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671935698474352, "dur":35679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698510086, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698510138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671935698510145, "dur":3886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698514077, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698514124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671935698514131, "dur":3587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698517757, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698517804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671935698517811, "dur":10012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671935698527868, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1671935698528204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671935698529324, "dur":12710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/esmee/OneDrive/Documenten/esmee.cloud/download-page/download/The Dwarf Life 2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1671935698542074, "dur":35674, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671935698580539, "dur":1478, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
