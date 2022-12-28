@@ -370,6 +370,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/FantasyCharactersDwarf-Free/Scene/Script/buttondraftfree.cs"
 "Assets/Scripts/ArmoredCarPuzzle.cs"
+"Assets/Scripts/Car.cs"
 "Assets/Scripts/GamePlay.cs"
 "Assets/Scripts/MenuManager.cs"
 "Assets/Scripts/PlayerController.cs"

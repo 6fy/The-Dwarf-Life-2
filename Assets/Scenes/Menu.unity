@@ -27138,6 +27138,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gnome
       objectReference: {fileID: 0}
+    - target: {fileID: 5007516491736677484, guid: 7f415e7553e370349ba57c8c6f3679d1,
+        type: 3}
+      propertyPath: m_text
+      value: Press 'ESC' to start the game
+      objectReference: {fileID: 0}
     - target: {fileID: 5007516492128788539, guid: 7f415e7553e370349ba57c8c6f3679d1,
         type: 3}
       propertyPath: groundCheck
