@@ -37,6 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\FantasyCharactersDwarf-Free\Scene\Script\buttondraftfree.cs" />
+     <Compile Include="Assets\Scripts\Controllers\PlayerCollisions.cs" />
+     <Compile Include="Assets\Scripts\Controllers\CutScene.cs" />
      <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Helpers\GamePlay.cs" />
      <Compile Include="Assets\Scripts\Helpers\SFX.cs" />
@@ -45,8 +47,6 @@
      <Compile Include="Assets\Scripts\Controllers\ArmoredCarPuzzle.cs" />
      <Compile Include="Assets\Scripts\Controllers\Car.cs" />
      <Compile Include="Assets\Scripts\WheelPuzzle.cs" />
-     <Compile Include="Assets\Scripts\Controllers\CutScene.cs" />
-     <Compile Include="Assets\Scripts\Controllers\PlayerCollisions.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
