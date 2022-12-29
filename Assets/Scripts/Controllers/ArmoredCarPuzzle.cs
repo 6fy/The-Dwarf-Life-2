@@ -27,5 +27,6 @@ public class ArmoredCarPuzzle : MonoBehaviour
     {
         yield return new WaitForSeconds(seconds);
         isPuzzleComplete = true;
+        puzzleBusy = false;
     }
 }

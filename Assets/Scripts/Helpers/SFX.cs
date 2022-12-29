@@ -6,6 +6,7 @@ public class SFX : MonoBehaviour
 {
     public AudioSource carCrash;
     public AudioSource repairCar;
+    public AudioSource Meteor;
 
     public void Play(SoundType sfx)
     {
@@ -17,11 +18,15 @@ public class SFX : MonoBehaviour
             case SoundType.RepairCar:
                 repairCar.Play();
                 break;
+            case SoundType.Meteor:
+                Meteor.Play();
+                break;
         }
     }
 }
 
 public enum SoundType {
     CarCrash,
-    RepairCar
+    RepairCar,
+    Meteor
 }

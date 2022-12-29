@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,26 +11,17 @@ public class PlayerController : MonoBehaviour
 
     public float mouseTurnSpeed = 5.0f;
 
-    public Camera mainCamera;
-    private GamePlay gamePlay;
-
+    private Camera mainCamera;
     private Rigidbody playerCollider;
 
-    private bool isGrounded = false;
-    private int jumpsLeft = 0;
-
-    private WheelPuzzle wheelPuzzle;
-    private ArmoredCarPuzzle armoredCarPuzzle;
+    public bool isGrounded = false;
+    public int jumpsLeft = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         playerCollider = GetComponent<Rigidbody>();
         ChangeSense(PlayerPrefs.GetFloat("Sense", 5.0f));
-
-        wheelPuzzle = FindObjectOfType<WheelPuzzle>();
-        armoredCarPuzzle = FindObjectOfType<ArmoredCarPuzzle>();
-        gamePlay = FindObjectOfType<GamePlay>();
 
         Cursor.lockState = CursorLockMode.Locked;
 
@@ -67,41 +59,14 @@ public class PlayerController : MonoBehaviour
         UpdateCamera();
     }
 
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = true;
-            jumpsLeft = 2;
-        }
-
-        if (collision.gameObject.CompareTag("Wall"))
-        {
-            transform.position = new Vector3(4, 5, 18);
-        }
-
-        if (wheelPuzzle.isPuzzleComplete && collision.gameObject.CompareTag("ArmoredCar"))
-        {
-            armoredCarPuzzle.StartPuzzle();
-        }
-
-        if (armoredCarPuzzle.puzzleBusy && collision.gameObject.CompareTag("Turret"))
-        {
-            gamePlay.changeText("");
-            Debug.Log("Level Completed");
-        }
-    }
-
     private void UpdateCamera()
     {
         mainCamera.transform.position = transform.position;
-        // mainCamera.transform.rotation = new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w);
     }
 
     private void PlayerMovement(float horizontalInput, float verticalInput)
     {
         Transform oldtransform = transform;
-
         transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * horizontalInput);
 
         // move forward and backward
