@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
 
     public float mouseTurnSpeed = 5.0f;
 
-    public Transform groundCheck;
     public Camera mainCamera;
     private GamePlay gamePlay;
 
